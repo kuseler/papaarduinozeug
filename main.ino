@@ -13,12 +13,12 @@
 //CLK               D5 (GPIO14)
 
 int pinCS = 0;                           //Für den PIN Select habe ich GPIO0 gewählt
-int numberOfHorizontalDisplays = 4;     //Anzahl der Module Horizontal
-int numberOfVerticalDisplays = 1;        //Anzahl der Module Vertikal
+int numberOfHorizontalDisplays = 8;     //Anzahl der Module Horizontal
+int numberOfVerticalDisplays = 2;        //Anzahl der Module Vertikal
 
-const char* ssid = "Net1";
-const char* password = "4250095938792388";
-const char* mqtt_server = "homeassistant:1883";
+const char* ssid = "ssid";
+const char* password = "hallo";
+const char* mqtt_server = "asdasdasd";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
