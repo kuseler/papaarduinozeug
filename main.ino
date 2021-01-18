@@ -3,7 +3,10 @@
 #include <Max72xxPanel.h>
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
-
+/* 
+Dieses Programm ist nicht mein geistiges Eigentum, sondern eine mehr-oder-weniger-Fork von hier : 
+https://www.smarthome-tricks.de/software-iobroker/esp8266-max7219-mqtt-matrixdisplay-fuer-iobroker/#part1
+*/
 // Belegung
 //DOT Matrix:       ESP8266 NodeMCU:
 //VCC               5V (VUSB)
